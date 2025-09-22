@@ -41,6 +41,7 @@ public class CountryCodeConverter {
             while (iterator.hasNext()) {
                 String line = iterator.next();
                 String[] parts = line.split("\t");
+                System.out.println(parts);
                 // TODO Task B: use parts to populate the instance variables
             }
         }
