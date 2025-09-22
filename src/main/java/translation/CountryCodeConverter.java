@@ -62,7 +62,6 @@ public class CountryCodeConverter {
      * @return the name of the country corresponding to the code
      */
     public String fromCountryCode(String code) {
-        System.out.println(countryCodeToCountry);
         return countryCodeToCountry.get(code.toUpperCase());
     }
 
