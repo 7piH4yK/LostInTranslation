@@ -17,4 +17,5 @@ public class CountryCodeConverterTest {
         CountryCodeConverter converter = new CountryCodeConverter();
         assertEquals(249, converter.getNumCountries());
     }
+
 }
